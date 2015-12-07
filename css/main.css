@@ -13,7 +13,8 @@ body {
 
 }
 
-.ryu {
+.ryu-container, .ryu {
+	float: left;
 	width: 659px;
 	height: 494px;
 }
@@ -30,6 +31,25 @@ body {
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
 }
+
+.text-container {
+	position: absolute;
+ 	left: 500px;
+  	height: 425px;
+  	width: 600px;
+  	padding-top: 75px;
+}
+
+.text-container, .instructions {
+	font-size: 1.8em;
+	width: 20%;
+	line-height: 35px;
+	padding-left: 8em;
+	text-align: left;
+	font-family: "Arial Rounded MT Bold";
+}
+
+
 
 /**
  * Images Section
@@ -58,5 +78,6 @@ body {
 	position: absolute;
 	z-index: 10;
 }
+
 
 
